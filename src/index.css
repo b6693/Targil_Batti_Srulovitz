@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.allImagesList{
+  display: grid;
+    list-style-type: none;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.singleImage{
+
+  border:10px solid black;
+}
